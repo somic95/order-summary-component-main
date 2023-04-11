@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display';
+}
+body {
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-repeat: repeat-x;
+    background-position: center top;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.container {
+    background-color: white;
+    width: 450px;
+    height: 690px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 40px 100px  hsl(224, 23%, 55%);
+}
+
+.main_info  {
+    text-align: center;
+}
+
+.main_info .maintext1  {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    margin-top: 35px;
+    font-size: 27px;
+}
+
+.main_info .maintext2 {
+    color: hsl(224, 23%, 55%);
+    font-size: 15px;
+    margin: 20px 20px;
+    line-height: 23px;   
+}
+
+.plan_box {
+    background-color: hsl(225, 100%, 98%);
+    margin: 0px 45px;
+    border-radius: 10px;
+    height: 100px;
+    
+    
+}
+.plan_box .icon_music {
+    align-items: center;
+    float: left;
+    margin-top: 27px;
+    margin-left: 25px;
+    margin-right: 25px;    
+}
+
+.plan_box .plantext1 {
+    padding-top: 27px;
+    line-height: 25px;
+}
+
+.plan_box .subplan1 {
+    font-weight: 900;
+}
+
+.plan_box .subplan2 {
+    color: hsl(224, 23%, 55%);
+}
+
+.plan_box .subplan3 {
+   float: right;
+   margin-right: 25px;
+   margin-top: -37px;
+   font-weight: 900;
+   font-size: 14px;
+}
+
+.subplan3 a:link {
+    color: hsl(245, 75%, 52%);
+}
+.subplan3 a:hover {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.proceed_butt {
+    margin-top: 27px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.proceed_butt .proceedtext1 {
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 0px 20px 10px  hsl(225, 100%, 94%);
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 50px;
+}
+
+.proceedtext1:hover {
+    background-color: blueviolet;
+}
+
+ .cancel_butt {
+    text-align: center;
+    margin-top: 27px;
+}
+
+.cancel_butt .canceltext1 {
+    color: hsl(224, 23%, 55%);
+    font-weight: 900;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.canceltext1:hover {
+    text-decoration: none;
+    color: hsl(223, 47%, 23%);
+}
+
+@media screen and (max-width: 375px) {
+
+    body {
+        height: 70vh;
+    }
+
+    .container {
+        width: 330px;
+        height: 650px;
+    }
+
+    .main_info .maintext1 {
+        font-size: 20px;
+    }
+
+    .main_info .maintext2 {
+        
+        font-size: 13px;
+    }
+
+    .plan_box {
+        background-color: hsl(225, 100%, 98%);
+        margin: 0px 15px;
+        border-radius: 10px;
+        height: 100px;
+        
+        
+        
+    }
+    .plan_box .icon_music {
+        width: 70px;
+        margin: 15px 10px;
+        
+        
+    }
+    
+    .plan_box .plantext1 {
+        padding-top: 27px;
+        line-height: 20px;
+        font-size: 13px;
+    }
+    
+    .plan_box .subplan1 {
+        font-weight: 900;
+    }
+    
+    .plan_box .subplan2 {
+        color: hsl(224, 23%, 55%);
+    }
+    
+    .plan_box .subplan3 {
+       float: right;
+       margin-right: 25px;
+        font-weight: 900;
+       font-size: 14px;
+        margin-top: -27px;
+    }
+
+    .proceed_butt {
+        margin-top: 27px;
+        margin: 25px 15px;
+        display: flex;
+        justify-content: center;
+
+        
+    }
+
+    .cancel_butt {
+        text-align: center;
+        margin-top: 27px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
